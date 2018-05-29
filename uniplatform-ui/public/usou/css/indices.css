@@ -1,0 +1,126 @@
+body,
+html {
+    height: 700px;
+    background-color: #f2f2f2;
+}
+
+.epm.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.singleBannerDiv {
+    box-shadow: 0 0 6px 0 rgba(151, 151, 151, .6);
+}
+
+.singleBanner {
+    height: 60px;
+}
+
+.singleBanner .singleBannerCol {
+    line-height: 60px;
+    padding-left: 25px !important;
+}
+
+.singleBanner .singleBannerCom {
+    color: #b51515;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.singleBanner .singleBannerChg {
+    font-size: 20px;
+}
+
+.indices_detail_row {
+    margin: auto 20px !important;
+    min-height: 600px;
+}
+
+.health_style>div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e3e3e3;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: lightsteelblue;
+    margin: 1.3%;
+}
+
+.health_style pre {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.table_style {
+    border: 1px solid #e3e3e3;
+}
+
+.cluster_detail_title {
+    line-height: 32px;
+}
+
+.cluster_detail_span {
+    color: #5f5f5f;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+}
+
+.cluster_detail_col {
+    border: 1px solid #c9c9c9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #fafafa 0, #e9e9e9 100%);
+    height: 32px;
+}
+
+.header-divider {
+    height: 60px;
+    background: #fff;
+    box-shadow: 0 0 6px 0 rgba(151, 151, 151, .6);
+}
+
+.header-divider .header-dividerL {
+    float: left;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.header-divider .header-dividerR {
+    float: right;
+    cursor: pointer;
+}
+
+.header-bonc {
+    color: #b51515;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.header-color {
+    margin-left: 5px;
+    font-size: 19px;
+}
+
+.header-divider .header-dividerR .header-dividerR-menu-link {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 12px;
+}
+
+.epm.modal>.content>.body {
+    overflow: unset!important;
+}
+
+.epm.modal.maxHeight>.content>.body {
+    max-height: 450px;
+    overflow: auto!important;
+}

@@ -1,0 +1,18 @@
+{
+    "name": "uniplatform-ui",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "public/bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "react": "^15.4.2",
+        "jquery": "^3.2.1",
+        "epm-ui": "https://code.bonc.com.cn/nexus/repository/npm/epm-ui/-/epm-ui-0.4.31.tgz",
+        "epm-ui-css": "https://code.bonc.com.cn/nexus/repository/npm/epm-ui-css/-/epm-ui-css-0.1.25.tgz",
+        "d3": "^v3.5.17"
+    }
+}

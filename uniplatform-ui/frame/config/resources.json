@@ -1,0 +1,38 @@
+{
+  "development": {
+    "css": [
+      "/bower_components/epm-ui-css/dist/css/epm-ui.css"
+    ],
+    "js": [
+      "/bower_components/react/react.js",
+      "/bower_components/react/react-dom.js",
+      "/bower_components/jquery/dist/jquery.js",
+      "/bower_components/epm-ui/dist/umd/epm-ui.bundle.js",
+      "/components/uniplatform-ui.js"
+    ]
+  },
+  "test": {
+    "css": [
+      "/bower_components/epm-ui-css/dist/css/epm-ui.min.css"
+    ],
+    "js": [
+      "/bower_components/react/react.min.js",
+      "/bower_components/react/react-dom.min.js",
+      "/bower_components/jquery/dist/jquery.min.js",
+      "/bower_components/epm-ui/dist/umd/epm-ui.bundle.js",
+      "/components/uniplatform-ui.min.js"
+    ]
+  },
+  "production": {
+    "css": [
+      "/bower_components/epm-ui-css/dist/css/epm-ui.min.css"
+    ],
+    "js": [
+      "/bower_components/react/react.min.js",
+      "/bower_components/react/react-dom.min.js",
+      "/bower_components/jquery/dist/jquery.min.js",
+      "/bower_components/epm-ui/dist/umd/epm-ui.bundle.js",
+      "/components/uniplatform-ui.min.js"
+    ]
+  }
+}

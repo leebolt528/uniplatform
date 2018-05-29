@@ -1,0 +1,49 @@
+body {
+    background-color: #f2f2f2;
+}
+
+html {
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+.epm.row {
+    margin: auto 20px;
+}
+
+.filter {
+    padding: 20px 35px 0px 35px!important;
+}
+
+.content {
+    padding: 10px 35px 20px 35px!important;
+}
+
+.filter_span {
+    line-height: 30px;
+    color: #4d4c4c;
+    font-size: 17px;
+    display: block;
+}
+
+.classManage_content {
+    border: 1px solid #d8dde8;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+.classManage_content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.classManage_content:before {
+    content: "";
+    display: table;
+}
+
+.epm.inline.form input {
+    width: 100%!important;
+}

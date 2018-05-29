@@ -1,0 +1,61 @@
+body,
+html {
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+.epm.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p {
+    margin: 5px auto;
+}
+.header-divider {
+    height: 60px;
+    background: #fff;
+    box-shadow: 0 0 6px 0 rgba(151, 151, 151, .6);
+}
+
+.header-divider .header-dividerL {
+    float: left;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.header-divider .header-dividerR {
+    float: right;
+    cursor: pointer;
+}
+
+.header-bonc {
+    color: #b51515;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.header-color {
+    margin-left: 5px;
+    font-size: 19px;
+}
+
+.header-divider .header-dividerR .header-dividerR-menu-link {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 12px;
+}
+.epm.modal>.content>.body {
+    overflow: unset!important;
+    max-height: 322px;
+}
+.epm.selectable.dropdown-wrap{
+    max-height:150px!important;
+}
+.epm.horizontal.form .formitem {
+    width: 90%!important;
+    margin-left: auto;
+    margin-right: auto;
+}

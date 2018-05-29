@@ -1,0 +1,316 @@
+body {
+    background-color: #f2f2f2;
+}
+
+html {
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+* {
+    margin: 0px;
+}
+
+.epm.row {
+    margin: auto 20px;
+}
+
+.corpusManage_col {
+    border: 1px solid #d8dde8;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #f7f9f9 0, #f0f4f7 100%);
+    height: 38px;
+}
+
+.corpusManage_title {
+    line-height: 32px;
+}
+
+.corpusManage_span {
+    height: 40px;
+    color: #4d4c4c;
+    font-size: 14px;
+    display: block;
+}
+
+.filter {
+    padding: 10px 35px 10px 35px!important;
+}
+
+.filter_label {
+    font-family: 宋体;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.corpusManage_content {
+    border-left: 1px solid #d8dde8;
+    border-bottom: 1px solid #d8dde8;
+    border-right: 1px solid #d8dde8;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.corpusManage_content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.corpusManage_content:before {
+    content: "";
+    display: table;
+}
+
+.cortype {
+    height: 125px !important;
+    width: 22%;
+    margin: 1.5%;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cortype:nth-child(2),
+.cortype:nth-child(3) {
+    cursor: not-allowed!important;
+}
+
+.cortype_text {
+    font-size: 18px;
+    font-family: 微软雅黑;
+    float: right;
+    text-align: center;
+    width: 50%;
+    margin: 13% 0;
+}
+
+.button_noborder {
+    border: none!important;
+    box-shadow: none!important;
+    color: #16325c!important;
+}
+
+.cent {
+    padding-top: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+.layer {
+    float: left;
+    background: #000;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    opacity: 0;
+}
+
+.cent:hover .layer {
+    width: 100%;
+    height: 195px;
+    top: -38px;
+    left: 0px;
+    color: #656869;
+    opacity: 0.65;
+}
+
+.layer_but {
+    top: 0px;
+    left: 0px;
+    width: 80%;
+    margin: 10%;
+    text-align: center;
+    color: #656e73;
+    position: absolute;
+    opacity: 0;
+}
+
+.cent:hover .layer_but {
+    opacity: 1;
+}
+
+.cortype.hang:hover {
+    background-color: rgb(206, 238, 252)!important;
+    border: 1px solid rgb(111, 204, 245)!important;
+}
+
+.nullContent {
+    padding: 150px 0px 90px 0px;
+    font-size: 40px;
+    display: block;
+    color: #d9d9d9;
+}
+
+.nullContentTop {
+    padding: 70px 0px 70px 0px;
+    font-size: 40px;
+    display: block;
+    color: #d9d9d9;
+}
+
+.epm.modal>.content>.body {
+    overflow: unset!important;
+}
+
+.epm.dialog>.content {
+    position: fixed;
+    left: 40%;
+    top: 80px;
+}
+
+.epm.snackbar {
+    left: 40%!important;
+    bottom: 50%!important;
+}
+
+.table_head {
+    table-layout: fixed;
+}
+
+.epm.notification.topLeft {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(126, 140, 153, 0.8);
+    width: 100%;
+    margin: 0;
+}
+
+.epm.notification>.notice {
+    width: 800px;
+    margin: auto;
+    height: 400px;
+    margin-top: 120px;
+}
+
+.epm.notification>.notice .content {
+    height: 380px;
+}
+
+.epm.notification>.notice .content .message {
+    color: red;
+    width: 400px;
+}
+
+.notification .epm.select.dropdown-trigger {
+    display: inline-block;
+    width: 300px;
+    margin-left: 5px;
+}
+
+.notification .epm.selectable.dropdown-wrap {
+    width: 200px!important;
+}
+
+.notification p {
+    display: inline-block;
+}
+
+.epm.notification>.notice .content .description {
+    height: 350px;
+    overflow-y: auto;
+}
+
+.epm.horizontal.form .formitem {
+    width: 80%!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.epm.formitem>label {
+    /* padding-top: 4px; */
+    line-height: 32px;
+}
+
+.epm.selectable.dropdown-wrap {
+    border-radius: .25rem!important;
+    max-height: 200px!important;
+    overflow-y: auto;
+}
+
+.epm.field.upload {
+    position: relative;
+}
+
+.epm.field.upload>span {
+    max-height: 200px;
+    overflow-y: auto;
+    display: grid;
+    margin-top: 32px;
+}
+
+.epm.field.upload>span span {
+    margin-left: 0px!important;
+}
+
+.epm.field.upload>span label {
+    margin-right: 0px!important;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.epm.open.modal .upExamples {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+    display: block;
+}
+
+
+/* .selectable.dropdown-wrap.open {
+    min-width: 0px!important;
+} */
+
+.corpusManage_content .cent p span:last-child {
+    padding-right: 5px;
+}
+
+.epm.progress.parent {
+    width: 80%!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.corpusManage_content>.cent>p,
+.corpusManage_title .corpusManage_span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.corpusManage_content>.cent {
+    text-align: left;
+}
+
+.epm.open.large.modal .body>.formitem {
+    margin-left: 0px!important;
+    text-align: left;
+}
+
+.epm.open.large.modal .body {
+    max-height: 350px;
+}
+
+.epm.open.large.modal .body>p {
+    max-height: 270px;
+    overflow-y: auto;
+}
+
+.epm.open.large.modal .epm.select.dropdown-trigger.field {
+    width: 300px;
+}
+
+table .checkbox {
+    height: 23.715px;
+}

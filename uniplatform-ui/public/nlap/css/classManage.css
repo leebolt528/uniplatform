@@ -1,0 +1,161 @@
+body {
+    background-color: #f2f2f2;
+}
+
+html {
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+.epm.row {
+    margin: auto 20px;
+}
+
+.filter {
+    padding: 20px 35px 0px 35px!important;
+}
+
+.contentPa {
+    padding: 10px 35px 20px 35px!important;
+}
+
+.filter_span {
+    line-height: 30px;
+    color: #4d4c4c;
+    font-size: 17px;
+    display: block;
+}
+
+.classManage_content {
+    border: 1px solid #d8dde8;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+.classManage_content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.classManage_content:before {
+    content: "";
+    display: table;
+}
+
+.epm.inline.form input {
+    width: 100%!important;
+}
+
+epm input {
+    display: inline-block;
+}
+
+.button_noborder {
+    border: none!important;
+    box-shadow: none!important;
+    color: #16325c!important;
+}
+
+.epm.dialog>.content {
+    position: fixed;
+    left: 40%;
+    top: 80px;
+}
+
+.epm.snackbar {
+    left: 40%!important;
+    bottom: 50%!important;
+}
+
+.epm.tree .item.disabled .title {
+    color: #16325c!important;
+    cursor: default!important;
+}
+
+.nullContent {
+    padding: 130px 0px 130px 0px;
+    font-size: 40px;
+    display: block;
+    color: #d9d9d9;
+}
+
+.contentPa .form .epm.button:focus {
+    box-shadow: none!important;
+    background-color: #fff!important;
+}
+
+.epm.tree .item.disabled .content {
+    cursor: pointer!important;
+}
+
+.epm.field.upload {
+    position: relative;
+}
+
+.epm.field.upload>span {
+    max-height: 200px;
+    overflow-y: auto;
+    display: grid;
+    margin-top: 32px;
+}
+
+.epm.field.upload>span span {
+    margin-left: 0px!important;
+}
+
+.epm.field.upload>span label {
+    margin-right: 0px!important;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.epm.horizontal.form .formitem {
+    width: 80%!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.epm.open.modal .upExamples {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+    display: block;
+}
+
+.epm.formitem label {
+    padding-top: 4px;
+    /* line-height: 32px; */
+}
+
+table.epm.table {
+    table-layout: fixed;
+}
+
+table.epm.table tbody tr td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap!important;
+}
+
+
+/* .selectable.dropdown-wrap.open {
+    min-width: 0px!important;
+} */
+
+.epm.progress.parent {
+    width: 80%!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+svg {
+    width: 100%!important;
+}
+
+table .checkbox {
+    height: 23.915px;
+}

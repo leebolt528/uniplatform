@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+ul {
+    background-color: #FFFFFF;
+    list-style-type: none;
+}
+
+a {
+    /* background-color: #fff; */
+    text-decoration: none;
+}
+
+
+/** =======================
+ * Contenedor Principal
+ ===========================*/
+
+.accordion {
+    width: 100%;
+    /*max-width: 150px;*/
+    background: #FFF;
+}
+
+.accordion .link {
+    height: 40px;
+    cursor: pointer;
+    display: block;
+    padding: 15px 15px 15px 55px;
+    color: #57585a;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "微软雅黑 Light";
+    border-bottom: 1px solid #edecec;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link {
+    border-bottom: 1px solid #edecec;
+}
+
+.accordion li {
+    cursor: pointer;
+}
+
+.accordion li i {
+    position: absolute;
+    top: 19px;
+    left: 20px;
+    font-size: 18px;
+    color: #8d9bab;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+    right: 12px;
+    left: auto;
+    font-size: 16px;
+}
+
+.accordion li.open .link {
+    background-color: #f2f2f2;
+}
+
+
+/*.accordion li.open i {
+    color: #f39800;
+}*/
+
+.accordion li.open i.fa-chevron-down {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+/**
+ * Submenu
+ -----------------------------*/
+
+.submenu {
+    /*display: none;*/
+    background: #ffffff;
+    font-size: 14px;
+}
+
+
+/*.submenu li {
+    border-bottom: 1px solid #d6d7dc;
+}*/
+
+.submenu a {
+    display: block;
+    text-decoration: none;
+    color: #212832;
+    font-size: 14px;
+    padding: 11px;
+    padding-left: 42px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.submenu a:hover,
+.submenu li.current a {
+    background: #f2f2f2;
+}
+
+
+/*http://www.jq22.com*/
+
+.accordion li img {
+    position: absolute;
+    top: 19px;
+    left: 20px;
+}

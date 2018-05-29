@@ -1,0 +1,50 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+html {
+    box-sizing: border-box;
+}
+body,html{
+    height:100%;
+    background-color: #f1f2f2;
+}
+
+.epm.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.contentUp{
+    background-color: white;
+    height: 100px;
+    width: 12%;
+    margin: 1%;
+    box-shadow: 0 0 6px 0 rgba(151, 151, 151, .6);
+    vertical-align: 20%;
+}
+.contentUp-text{
+    display: inline-block;
+    margin: 25% 0px;
+}
+.contentUp img{
+    vertical-align: baseline;
+}
+.contentUp-text p{
+    line-height: 0px;
+    font-family: "Arial Black";
+}
+.contentMid{
+    background-color: white;
+    height: 100px;
+    width: 28%;
+    margin: 2.6% 1%;
+    padding: 0px;
+    box-shadow: 0 0 6px 0 rgba(151, 151, 151, .6);
+}
+.contentMid-img{
+    width: 40%;
+    background-color: #B6DF5D;
+    height: 100%;
+}

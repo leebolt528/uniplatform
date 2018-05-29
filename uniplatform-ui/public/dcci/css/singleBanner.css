@@ -1,0 +1,56 @@
+.singleBannerDiv {
+    box-shadow: 0 0 6px 0 rgba(151, 151, 151, .6);
+}
+
+.singleBanner_place {
+    height: 60px;
+}
+
+.singleBanner {
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+    top: 0px;
+    background-color: #fff;
+    border-bottom: solid 1px #dbdcdc;
+}
+
+.singleBanner .singleBannerCol {
+    line-height: 60px;
+    padding-left: 25px !important;
+}
+
+.singleBanner .singleBannerCom {
+    color: #b51515;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.singleBanner .singleBannerChg {
+    font-size: 19px;
+    /* color: #fff; */
+    margin-left: 5px;
+}
+
+.comfooter {
+    height: 50px;
+    font-size: 12px;
+    color: #9b9ea0;
+    text-align: center;
+    background-color: #384450;
+}
+
+.comfooter p {
+    margin: 5px auto;
+}
+
+.comfooter:before {
+    clear: both;
+}
+
+.comfooter:before,
+.comfooter:after {
+    content: "";
+    display: table;
+}

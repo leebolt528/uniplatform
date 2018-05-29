@@ -1,0 +1,60 @@
+.singleBannerDiv {
+    box-shadow: 0 0 6px 0 rgba(151, 151, 151, .6);
+}
+
+.singleBanner {
+    height: 60px;
+}
+
+.singleBanner .singleBannerCol {
+    line-height: 60px;
+    padding-left: 25px !important;
+}
+
+.singleBanner .singleBannerCom {
+    color: #b51515;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.singleBanner .singleBannerChg {
+    font-size: 20px;
+}
+
+.comfooter {
+    height: 50px;
+    font-size: 12px;
+    color: #9b9ea0;
+    text-align: center;
+    background-color: #384450;
+}
+
+.comfooter p {
+    margin: 5px auto;
+}
+
+.comfooter:before {
+    clear: both;
+}
+
+.comfooter:before,
+.comfooter:after {
+    content: "";
+    display: table;
+}
+
+.banner_col {
+    border-bottom: 1px solid #ccc;
+    height: 32px;
+    margin-bottom: 12px;
+}
+
+.banner_title {
+    line-height: 32px;
+}
+
+.banner_span a:focus,
+.banner_span a:hover {
+    text-decoration: none;
+    color: #005fb2;
+}

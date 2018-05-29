@@ -1,0 +1,124 @@
+body,
+html {
+    height: 700px;
+    background-color: #f2f2f2;
+}
+
+.epm.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p {
+    margin: 5px auto;
+}
+
+.epm.accordion>.panel>.content {
+    background: #d8e7ff;
+}
+
+.accordion_content {
+    cursor: pointer;
+    background: #e8f1ff;
+    border: 1px solid #e8f1ff;
+    border-radius: 5px;
+    padding: 1px 10px;
+    margin-bottom: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.accordion_content .fa {
+    padding-right: 5px;
+}
+
+.accordion_input input {
+    min-height: 1.2rem !important;
+    line-height: 1.675rem !important;
+}
+
+.accordion_content.selected {
+    background: #dae3f0;
+    border: 1px solid #c8d4e6;
+}
+
+.searchForm .epm.formitem {
+    margin-bottom: 0px !important;
+}
+
+.searchForm .epm.formitem .field.input,
+.searchForm .epm.formitem .field.textarea,
+.searchForm .epm.formitem .field {
+    display: block !important;
+    width: 100% !important;
+}
+
+.selectconfig {
+    display: inline-block;
+}
+
+.selectconfig .multiple.select {
+    min-width: 5rem !important;
+}
+
+.selectconfig input,
+.selectconfig .epm.input {
+    width: 9rem !important;
+}
+
+.sqlError .epm.textarea textarea[readonly] {
+    color: rgb(169, 68, 66);
+}
+
+.header-divider {
+    height: 60px;
+    background: #fff;
+    box-shadow: 0 0 6px 0 rgba(151, 151, 151, .6);
+}
+
+.header-divider .header-dividerL {
+    float: left;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.header-divider .header-dividerR {
+    float: right;
+    cursor: pointer;
+}
+
+.header-bonc {
+    color: #b51515;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.header-color {
+    margin-left: 5px;
+    font-size: 19px;
+}
+
+.header-divider .header-dividerR .header-dividerR-menu-link {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 12px;
+}
+
+@media screen and (max-width: 1027px) {
+    .formitem .queryAll {
+        margin-left: 68px;
+    }
+}
+
+@media screen and (max-width: 1154px) {
+    .buttonGroup {
+        margin-left: 68px;
+    }
+}
+.epm.table td .text>div {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

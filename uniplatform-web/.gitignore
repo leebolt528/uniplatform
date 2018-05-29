@@ -1,0 +1,58 @@
+##filter databfile##
+*.mdb  
+*.ldb  
+*.sln    
+##class file##
+*.com
+*.class  
+*.dll  
+*.exe  
+*.o  
+*.so  
+# compression file
+*.7z  
+*.dmg  
+*.gz  
+*.iso  
+*.jar  
+*.rar  
+*.tar  
+#*.zip  
+*.via
+*.tmp
+*.err 
+# OS generated files #  
+.DS_Store  
+.DS_Store?  
+._*  
+.Spotlight-V100  
+.Trashes  
+Icon?  
+ehthumbs.db  
+Thumbs.db
+
+# idea
+.idea
+*.iml
+*.iws
+*.ipr
+
+# eclipse
+.project
+.classpath
+.settings
+.apt_generated
+.factorypath
+
+.git
+/target
+/log
+/logs
+*.log
+*.swp
+
+# other
+/out
+*patch
+log4j*
+application-test.properties

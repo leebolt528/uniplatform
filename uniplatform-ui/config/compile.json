@@ -1,0 +1,27 @@
+{
+  "source": {
+    "views": "views",
+    "frame": "frame",
+    "components": "components/",
+    "javascript": "public/",
+    "css": "public/",
+    "image": "public/",
+    "bower": "public/bower_components",
+    "resources": "public/"
+  },
+  "output": {
+    "packaged": "build",
+    "views": "build/views/",
+    "frame": "build/frame/",
+    "components": "build/components/",
+    "javascript": "build/public/",
+    "css": "build/public/",
+    "image": "build/public/",
+    "bower": "build/bower_components",
+    "resources": "build/public/"
+  },
+  "filenames": {
+    "umdComJS": "uniplatform-ui.js",
+    "minifiedComUMDJS": "uniplatform-ui.min.js"
+  }
+}

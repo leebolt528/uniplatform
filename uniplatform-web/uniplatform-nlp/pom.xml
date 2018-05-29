@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.bonc.uni</groupId>
+		<artifactId>uniplatform-web</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>uniplatform-nlp</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>uniplatform-nlp</name>
+	
+	<!-- 增加新的maven源 -->
+	<repositories>
+        <repository>
+            <id>public</id>
+            <name>Public Repositories</name>
+            <url>http://code.bonc.com.cn/nexus/content/groups/public/</url>
+            <snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+				<checksumPolicy>warn</checksumPolicy>
+			</snapshots>
+        </repository>
+	</repositories>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.bonc.uni</groupId>
+			<artifactId>uniplatform-common</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.bonc.usdp</groupId>
+			<artifactId>bonc-sql4es</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.icu</groupId>
+			<artifactId>icu4j</artifactId>
+			<version>60.2</version>
+		</dependency>
+		<!-- sdk -->
+		<dependency>
+			<groupId>com.bonc.text</groupId>
+			<artifactId>sdk</artifactId>
+			<version>1.4-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	
+	<distributionManagement>
+        <repository>
+            <id>bonc-releases</id>
+            <name>bonc-releases</name>
+            <url>https://code.bonc.com.cn/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>bonc-snapshots</id>
+            <name>bonc-snapshots</name>
+            <url>https://code.bonc.com.cn/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>
